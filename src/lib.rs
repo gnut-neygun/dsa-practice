@@ -1,3 +1,6 @@
+#![allow(unused_variables)]
+#![allow(dead_code)]
+
 pub fn add(left: usize, right: usize) -> usize {
     left + right
 }
@@ -12,3 +15,6 @@ mod tests {
         assert_eq!(result, 4);
     }
 }
+
+mod safe_disjoint_union;
+mod disjoint_union;
