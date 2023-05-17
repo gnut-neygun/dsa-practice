@@ -18,3 +18,4 @@ mod tests {
 
 mod safe_disjoint_union;
 mod disjoint_union;
+mod threesum;
