@@ -1,21 +1,17 @@
 #![allow(unused_variables)]
 #![allow(dead_code)]
 
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+use std::future::Future;
+use std::pin::Pin;
+use std::process::Output;
+use std::task::{Context, Poll};
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+struct Solution;
 
 mod safe_disjoint_union;
 mod disjoint_union;
 mod threesum;
+//#[path = "leetcode/editor/en/[5]Longest Palindromic Substring.rs"]
+//mod palindrome_substring;
+#[path = "leetcode/editor/en/[15]3Sum.rs"]
+mod three_sum;
