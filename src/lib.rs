@@ -18,8 +18,8 @@ mod three_sum_closest;
 mod longest_common_subsequence;
 #[path = "leetcode/editor/en/[11]Container With Most Water.rs"]
 mod container_most_water;
-// #[path = "leetcode/editor/en/[46]Permutations.rs"]
-// mod permutations;
+#[path = "leetcode/editor/en/[46]Permutations.rs"]
+mod permutations;
 #[path = "leetcode/editor/en/[1470]Shuffle the Array.rs"]
 mod shuffle_the_array;
 #[path = "leetcode/editor/en/[1431]Kids With the Greatest Number of Candies.rs"]
