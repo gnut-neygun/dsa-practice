@@ -24,3 +24,5 @@ mod permutations;
 mod shuffle_the_array;
 #[path = "leetcode/editor/en/[1431]Kids With the Greatest Number of Candies.rs"]
 mod kids_with_candies;
+#[path = "leetcode/editor/en/[100]Same Tree.rs"]
+mod same_tree;
