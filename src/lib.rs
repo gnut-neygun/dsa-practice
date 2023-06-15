@@ -26,3 +26,11 @@ mod shuffle_the_array;
 mod kids_with_candies;
 #[path = "leetcode/editor/en/[100]Same Tree.rs"]
 mod same_tree;
+#[path = "leetcode/editor/en/[99]Recover Binary Search Tree.rs"]
+mod recover_binary_search_tree;
+#[path = "leetcode/editor/en/[169]Majority Element.rs"]
+mod majority_element;
+// #[path = "leetcode/editor/en/[229]Majority Element II.rs"]
+// mod majority_element_ii;
+#[path = "leetcode/editor/en/[496]Next Greater Element I.rs"]
+mod next_greater_element;
